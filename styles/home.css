@@ -1,0 +1,585 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+
+.desktopHeader {
+  display: none;
+}
+
+.dis-none {
+  display: none !important;
+}
+
+#main {
+  background-color: #ececec;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+
+.mainInfos {
+  background-image: url('https://m.media-amazon.com/images/I/61E3jRGHnhL._AC_SY879_.jpg');
+  background-size: cover;
+  background-color: rgb(247, 245, 245);
+  background-blend-mode: overlay;
+  width: 100%;
+  height: 350px;
+  gap: 3%;
+}
+
+.navBar {
+  padding: 3px;
+  height: 50px;
+}
+
+.title {
+  color: #ec5242;
+  margin: 10px 0 0 15px;
+  padding: 6px;
+}
+
+.title-2 {
+  color: transparent;
+  background-image: url("https://files.123freevectors.com/wp-content/original/172700-red-abstract-background.jpg");
+  background-position: bottom center;
+  background-size: contain;
+  background-clip: unset;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 90%;
+  margin: 0 0 0 15px;
+  padding: 3%;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
+.mainPara {
+  background-color: #eee6e6;
+  width: 90%;
+  align-items: center;
+  border: 1px solid white;
+  padding: 3%;
+  margin: 0 auto;
+}
+
+.mainDate {
+  align-items: center;
+  margin: 10px 0 0 20px;
+}
+
+.eventDate {
+  color: #847b7b;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  letter-spacing: 0.04rem;
+}
+
+.eventPlace {
+  color: #a7a5a5;
+  display: block;
+}
+
+.mainProgram {
+  width: 100%;
+  height: 850px;
+  background-color: #292c33;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5%;
+  background-image: url('https://summit.cckorea.org/images/base/pattern_bg.png');
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.programTitle {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  margin-top: 4%;
+}
+
+.separator {
+  background-color: #ec5242;
+  width: 8%;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.programContainer {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5%;
+  margin-top: 2.5%;
+}
+
+.programli {
+  height: 18%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2%;
+  background-color: #ffffff20;
+  opacity: 0.9;
+}
+
+.pL-Button {
+  height: 14%;
+  width: 70%;
+  background-color: #ec5242;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.mainProgramImg {
+  height: 50%;
+  display: flex;
+  border-radius: 10%;
+  margin-left: 2%;
+}
+
+.mPImgtitle {
+  color: #ec5242;
+}
+
+.mPImgPara {
+  color: white;
+}
+
+.featuredSpeakers {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.fSTitle {
+  color: #292c33;
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+  font-size: 1.7rem;
+}
+
+.fSul {
+  width: 100%;
+  height: 94%;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  margin-top: 4%;
+}
+
+.fSLi {
+  width: 95%;
+  height: 33%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fSImgContainer {
+  display: flex;
+  width: 40%;
+  max-height: 160px;
+  max-width: 150px;
+}
+
+.fSImg {
+  width: 90%;
+}
+
+.fSImgInfos {
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: auto;
+  gap: 6.5%;
+}
+
+.fSLiTitle {
+  font-size: large;
+  font-weight: bold;
+}
+
+.fSLiTitle2 {
+  color: #ec5242;
+  font-style: italic;
+  font-size: medium;
+}
+
+.fSLiseparator {
+  background-color: #847b7b;
+  height: 0.5px;
+  width: 8%;
+}
+
+.fSLiPara {
+  font-size: 1rem;
+}
+
+.sM-div {
+  width: 90%;
+  height: 15%;
+  border: 0.5px solid #847b7b;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sL-div {
+  width: 90%;
+  height: 10%;
+  border: 0.5px solid #847b7b;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.seeMore {
+  margin-left: 2%;
+}
+
+.seeLess {
+  margin-left: 2%;
+  transform: rotate(178deg);
+}
+
+.lessButton {
+  font-weight: bold;
+  color: #847b7b;
+  letter-spacing: 0.1rem;
+  font-size: larger;
+}
+
+.header-active {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://summit.cckorea.org/images/base/pattern_bg.png');
+  background-color: #dfb1b1;
+  display: flex;
+  position: fixed;
+  transition: 0.35s ease-in-out;
+}
+
+.navUl {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: 0.3s ease-in-out;
+}
+
+.closeIcon {
+  width: 50px;
+  border: 0.3px solid #ec5242;
+  height: 50px;
+  border-radius: 25%;
+  background-color: #eee6e6;
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  transition: 0.5s ease-in-out;
+}
+
+.closeIcon:hover {
+  background-color: #7a1818;
+}
+
+.about,
+.home {
+  padding: 12px;
+  color: rgb(252, 252, 252);
+  border: 1px solid #9c7c79;
+  background-color: #0d1525;
+  width: 200%;
+  height: 9%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+
+.about:hover {
+  background-color: #ec5242;
+}
+
+.home:hover {
+  background-color: #ec5242;
+}
+
+.fS-desktop {
+  display: none;
+}
+
+.partners {
+  display: none;
+}
+
+/* media screen styles */
+@media screen and (max-width: 350px) {
+  .eventDate {
+    font-size: 6vw;
+  }
+
+  .mainInfos {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .fSLiTitle,
+  .fSLiTitle2 {
+    font-size: 1rem;
+  }
+
+  .fSLiPara {
+    font-size: 0.8rem;
+  }
+
+  .fSImgInfos {
+    gap: 2.5%;
+  }
+
+  .fSImgContainer {
+    max-height: 115px;
+  }
+
+  .sL-div {
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navBar {
+    display: none;
+  }
+
+  .desktopHeader {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .desktopUl {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  .desktopUl-li {
+    color: #292c33;
+    margin-top: 5%;
+  }
+
+  .mainInfos {
+    height: 85vh;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .title-2 {
+    font-size: 70px;
+  }
+
+  .title,
+  .title-2,
+  .mainPara,
+  .mainDate {
+    margin-left: 10%;
+  }
+
+  .mainPara {
+    font-size: 20px;
+    color: #292c33;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 600px;
+    max-height: 120px;
+    margin-left: 120px;
+  }
+
+  .eventDate {
+    font-size: 40px;
+    color: black;
+  }
+
+  .eventPlace {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(61, 58, 58);
+    font-weight: 300;
+  }
+
+  .mainProgram {
+    flex-direction: column;
+    max-height: 70vh;
+    gap: 1%;
+  }
+
+  .programContainer {
+    flex-direction: row;
+    align-items: center;
+    height: 50%;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 0;
+  }
+
+  .programli {
+    flex-direction: column;
+    height: 90%;
+    width: 17%;
+  }
+
+  .programli:hover {
+    border: 0.8px solid whitesmoke;
+  }
+
+  .pL-Button {
+    margin-bottom: 20px;
+    height: 15%;
+    width: 40%;
+  }
+
+  .mainProgramImg {
+    width: 80%;
+    height: 40%;
+  }
+
+  .separator {
+    width: 40px;
+  }
+
+  .fS-desktop {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    background-color: white;
+    gap: 20px;
+  }
+
+  .fSUl-Desktop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 80%;
+    gap: 2%;
+    margin: 0 auto;
+  }
+
+  .fSLi {
+    max-width: 15%;
+    max-width: 40%;
+  }
+
+  .featuredSpeakers {
+    display: none !important;
+  }
+
+  .partners {
+    display: flex;
+    background-color: rgb(88, 88, 88);
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .partners-title {
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #292c33;
+    font-size: 30px;
+  }
+
+  .partners-Ul {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 40%;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  .partners-Li {
+    font-size: 25px;
+  }
+
+  .lisence {
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .lisence-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .lisence-title2 {
+    font-size: 20px;
+    color: #847b7b;
+    max-width: 600px;
+  }
+}

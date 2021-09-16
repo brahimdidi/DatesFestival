@@ -2,7 +2,9 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> This is project about palms in mauritaina
+
+## Dates Festival Tagant
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,9 +12,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: css html js
+- Frameworks: none
+- Technologies used : vs code
 
 ## Live Demo
 
@@ -48,6 +50,8 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+Brahimdidi
 
 👤 **Author2**
 
