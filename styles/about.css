@@ -30,23 +30,26 @@
   margin-top: 4%;
   font-weight: bold;
 }
+
 .partners {
   display: flex;
   width: 100%;
   height: 150px;
   background-color: white;
 }
+
 .lisence-title {
   font-size: 20px;
   width: 30%;
   margin-top: 40px;
   margin-left: 30px;
 }
+
 .lisence-title2 {
   font-size: 15px;
   margin-left: 50px;
   max-width: 60%;
- margin-top: 30px;
+  margin-top: 30px;
 }
 
 .sec1-para {

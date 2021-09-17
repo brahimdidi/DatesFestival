@@ -28,7 +28,6 @@ body {
   display: none !important;
 }
 
-
 #main {
   background-color: #ececec;
   background-position: center;
@@ -60,6 +59,7 @@ body {
   margin: 10px 0 0 15px;
   padding: 6px;
 }
+
 .div-desktop {
   display: none;
 }
@@ -356,11 +356,11 @@ body {
 }
 
 .about:hover {
-  background-color: #ec5242!important;
+  background-color: #ec5242 !important;
 }
 
 .home:hover {
-  background-color: #ec5242!important;
+  background-color: #ec5242 !important;
 }
 
 .fS-desktop {
@@ -409,6 +409,7 @@ body {
   .navBar {
     display: none;
   }
+
   .div-desktop {
     background-color: rgb(59, 55, 55);
     height: 40px;
@@ -435,9 +436,11 @@ body {
     flex-direction: row;
     justify-content: space-around;
   }
+
   .aboutDesk {
-    color: #ec5242!important;
+    color: #ec5242 !important;
   }
+
   .dfcampain {
     border: 2px solid #ec5242;
     padding: 10px;
@@ -462,7 +465,7 @@ body {
   .title {
     font-size: 40px;
     margin-top: 70px;
-  margin-left: 30px;
+    margin-left: 30px;
   }
 
   .title-2 {
@@ -487,7 +490,7 @@ body {
     justify-content: flex-start;
     max-width: 600px;
     max-height: 120px;
-    margin-left: 120px;
+    margin-left: 220px;
   }
 
   .eventDate {
@@ -507,6 +510,7 @@ body {
     max-height: 60vh;
     gap: 3%;
   }
+
   .programTitle {
     font-size: 28px;
     font-weight: 800;
@@ -533,30 +537,28 @@ body {
     border: 1.5px solid whitesmoke;
   }
 
-  .pL-Button {
-    margin-bottom: 20px;
-    height: 15%;
-    width: 40%;
-  }
-
   .mainProgramImg {
     width: 80%;
     height: 40%;
   }
 
-
   .separator {
     width: 40px;
   }
+
   .pL-Button {
+    margin-bottom: 20px;
+    height: 15%;
+    width: 40%;
     background: none;
     font-size: 10px;
     display: block;
     font-weight: 100;
     text-decoration: underline;
     margin-top: 70px;
-    border: none!important;
+    border: none !important;
   }
+
   .fS-desktop {
     display: flex;
     height: 90vh;
@@ -629,7 +631,7 @@ body {
 
   .lisence-title2 {
     font-size: 20px;
-    color: #000000;
+    color: #000;
     max-width: 600px;
   }
 }
