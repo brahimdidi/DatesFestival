@@ -28,6 +28,7 @@ body {
   display: none !important;
 }
 
+
 #main {
   background-color: #ececec;
   background-position: center;
@@ -58,6 +59,9 @@ body {
   color: #ec5242;
   margin: 10px 0 0 15px;
   padding: 6px;
+}
+.div-desktop {
+  display: none;
 }
 
 .title-2 {
@@ -352,11 +356,11 @@ body {
 }
 
 .about:hover {
-  background-color: #ec5242;
+  background-color: #ec5242!important;
 }
 
 .home:hover {
-  background-color: #ec5242;
+  background-color: #ec5242!important;
 }
 
 .fS-desktop {
@@ -405,6 +409,24 @@ body {
   .navBar {
     display: none;
   }
+  .div-desktop {
+    background-color: rgb(59, 55, 55);
+    height: 40px;
+    width: 100%;
+    display: block;
+  }
+
+  .div-desktop-ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+  }
+
+  .div-desktop-li {
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+  }
 
   .desktopHeader {
     display: flex;
@@ -413,16 +435,24 @@ body {
     flex-direction: row;
     justify-content: space-around;
   }
+  .aboutDesk {
+    color: #ec5242!important;
+  }
+  .dfcampain {
+    border: 2px solid #ec5242;
+    padding: 10px;
+    font-weight: bold;
+  }
 
   .desktopUl {
     display: flex;
     justify-content: space-around;
     width: 50%;
+    align-items: center;
   }
 
   .desktopUl-li {
     color: #292c33;
-    margin-top: 5%;
   }
 
   .mainInfos {
@@ -431,10 +461,15 @@ body {
 
   .title {
     font-size: 40px;
+    margin-top: 70px;
+  margin-left: 30px;
   }
 
   .title-2 {
-    font-size: 70px;
+    font-size: 80px;
+    max-width: 1000px;
+    padding-top: 30px;
+    font-weight: bold;
   }
 
   .title,
@@ -469,8 +504,12 @@ body {
 
   .mainProgram {
     flex-direction: column;
-    max-height: 70vh;
-    gap: 1%;
+    max-height: 60vh;
+    gap: 3%;
+  }
+  .programTitle {
+    font-size: 28px;
+    font-weight: 800;
   }
 
   .programContainer {
@@ -478,7 +517,8 @@ body {
     align-items: center;
     height: 50%;
     justify-content: center;
-    width: 80%;
+    width: 75%;
+    max-width: 1200px;
     margin: 0 auto;
     gap: 0;
   }
@@ -486,11 +526,11 @@ body {
   .programli {
     flex-direction: column;
     height: 90%;
-    width: 17%;
+    width: 19%;
   }
 
   .programli:hover {
-    border: 0.8px solid whitesmoke;
+    border: 1.5px solid whitesmoke;
   }
 
   .pL-Button {
@@ -504,10 +544,19 @@ body {
     height: 40%;
   }
 
+
   .separator {
     width: 40px;
   }
-
+  .pL-Button {
+    background: none;
+    font-size: 10px;
+    display: block;
+    font-weight: 100;
+    text-decoration: underline;
+    margin-top: 70px;
+    border: none!important;
+  }
   .fS-desktop {
     display: flex;
     height: 90vh;
@@ -537,7 +586,7 @@ body {
 
   .partners {
     display: flex;
-    background-color: rgb(88, 88, 88);
+    background-color: #272a31;
     flex-direction: column;
     height: 20vh;
     width: 100%;
@@ -547,7 +596,7 @@ body {
   .partners-title {
     margin: 0 auto;
     margin-top: 20px;
-    color: #292c33;
+    color: grey;
     font-size: 30px;
   }
 
@@ -575,11 +624,12 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin-left: 20px;
+    color: #000;
   }
 
   .lisence-title2 {
     font-size: 20px;
-    color: #847b7b;
+    color: #000000;
     max-width: 600px;
   }
 }

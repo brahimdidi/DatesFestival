@@ -1,12 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name 
+# Dates Festival Tagant
 
-> This is project about palms in mauritaina
+> This is project about palms in mauritaina, This event usually happens once a year 
+and is normally attended by the president of the country.
 
-## Dates Festival Tagant
+## Here is a video describing the project 
+https://www.loom.com/share/2f6ffa38364b4807b86808d756b471f6
 
-![screenshot](./app_screenshot.png)
+![screenshot](images/Screenshot from 2021-09-16 19-22-53.png)
 
 Additional description about the project and its features.
 
@@ -18,7 +21,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://brahimdidi.github.io/CapstoneProject-Module1/home.html)
 
 
 ## Getting Started
@@ -32,8 +35,11 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 ### Setup
+downoad the repo or clone it 
+you can also take a look at the project by clicking on the live demo up.
 
 ### Install
+nothing to be instaled
 
 ### Usage
 
@@ -52,6 +58,8 @@ To get a local copy up and running follow these simple example steps.
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 Brahimdidi
+cindy shin 
+GitHub: [@githubhandle](https://github.com/brahimdidi)
 
 👤 **Author2**
 
