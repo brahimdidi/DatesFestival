@@ -50,6 +50,8 @@ nothing to be instaled
 
 
 ## Authors
+Cindy Shin
+Brahim didi
 
 👤 **Author1**
 

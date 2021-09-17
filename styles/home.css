@@ -82,10 +82,10 @@ body {
 }
 
 .mainPara {
-  background-color: #eee6e6;
   width: 90%;
   align-items: center;
-  border: 1px solid white;
+  background-color: white;
+  border: 0.2px solid rgb(223, 220, 220);
   padding: 3%;
   margin: 0 auto;
 }
@@ -471,15 +471,15 @@ body {
   .title-2 {
     font-size: 80px;
     max-width: 1000px;
-    padding-top: 30px;
     font-weight: bold;
+    padding: unset;
   }
 
   .title,
   .title-2,
   .mainPara,
   .mainDate {
-    margin-left: 10%;
+    margin-left: 10% !important;
   }
 
   .mainPara {
@@ -491,11 +491,13 @@ body {
     max-width: 600px;
     max-height: 120px;
     margin-left: 220px;
+    margin-top: 30px;
   }
 
   .eventDate {
     font-size: 40px;
     color: black;
+    margin-top: 40px;
   }
 
   .eventPlace {
