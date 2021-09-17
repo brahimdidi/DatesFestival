@@ -7,9 +7,9 @@
 and is normally attended by the president of the country.
 
 ## Here is a video describing the project 
-https://www.loom.com/share/2f6ffa38364b4807b86808d756b471f6
+https://www.loom.com/share/be329f5f616c41d198a1647a88b6cdb0
 
-![screenshot](images/Screenshot from 2021-09-16 19-22-53.png)
+![screenshot](Project-screenShoot.png)
 
 Additional description about the project and its features.
 
@@ -80,7 +80,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+## Cindy Shin is the owner of this design
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
