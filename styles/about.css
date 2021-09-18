@@ -1,0 +1,347 @@
+.about-sec1 {
+  background-image: url('https://summit.cckorea.org/images/base/mobile_intro_bg.png');
+  height: 500px;
+  width: 100%;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 70px;
+}
+
+.sec1-title {
+  margin-top: 10px;
+}
+
+.sec1-title,
+.sec1-title2 {
+  font-size: 22px;
+  color: #ec5242;
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec1-title2 {
+  font-size: 2rem;
+  margin-top: 4%;
+  font-weight: bold;
+}
+
+.partners {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+.lisence-title {
+  font-size: 20px;
+  width: 30%;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.lisence-title2 {
+  font-size: 15px;
+  margin-left: 50px;
+  max-width: 60%;
+  margin-top: 30px;
+}
+
+.sec1-para {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  height: 20%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 8%;
+  border: 0.1px solid rgb(201, 201, 201);
+}
+
+.navBar {
+  height: 60px;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 98px;
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.contactUs-para {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contactUs-email {
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.header-active {
+  background-color: antiquewhite;
+  background-image: none;
+}
+
+.featuredSpeakers {
+  display: none;
+}
+
+.logo-para-section {
+  background-color: white;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.8px solid rgb(216, 213, 213);
+}
+
+.logo-para-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo-para-title-desktop {
+  display: none;
+}
+
+.lP-para {
+  text-align: center;
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.separatorlogo {
+  margin-top: 8px;
+  width: 30px;
+  height: 1px;
+}
+
+.logoImg-div {
+  border: 1px solid rgb(199, 191, 191);
+  width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  margin-top: 6%;
+  max-width: 500px;
+}
+
+.logo-image {
+  width: 50%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.stp-section {
+  height: 700px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.stp-images {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 100%;
+  max-height: 400px;
+}
+
+.stpImg {
+  background-color: #ec5242;
+  background-blend-mode: overlay;
+  height: 45%;
+  width: 80%;
+}
+
+.stp-img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.partners-mobile {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  background-color: rgb(68, 66, 66);
+  flex-direction: column;
+  gap: 10px;
+}
+
+.partners-title {
+  margin: 0 auto;
+  margin-top: 5px;
+  font-size: 25px;
+  color: rgb(226, 225, 225);
+  font-weight: bold;
+}
+
+.partners-Ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partners-Li {
+  font-size: 2.4rem;
+  padding: 12px;
+  color: rgb(122, 122, 122);
+}
+
+.div-desktop,
+.contactUs-para-desktop,
+.lpt-desktop,
+.desktop-footer {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .sec1-title2 {
+    font-size: 1.5rem;
+  }
+
+  .navBar {
+    height: 45px;
+    width: 50px;
+    padding: 2px;
+  }
+
+  .partners-Li {
+    font-size: 1.7rem;
+  }
+
+  .sec1-para {
+    font-size: small;
+    height: 30%;
+  }
+}
+
+@media screen  and (max-width: 400px) {
+  .sec1-title2 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sec1-para {
+    height: 30%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .sec1-para {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .about-sec1 {
+    height: 70vh;
+  }
+
+  .sec1-title {
+    display: none;
+  }
+
+  .sec1-title2 {
+    font-size: 4rem;
+  }
+
+  .header {
+    height: 80px;
+  }
+
+  .sec1-para {
+    height: 200px;
+    max-width: 700px;
+    font-size: large;
+  }
+
+  .contactUs-para,
+  .lpt,
+  .partners-mobile {
+    display: none;
+  }
+
+  .contactUs-para-desktop,
+  .lpt-desktop {
+    display: block;
+  }
+
+  .lpt-desktop {
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+
+  .contactUs-email {
+    margin-top: 4px;
+  }
+
+  .div-desktop {
+    background-color: rgb(59, 55, 55);
+    height: 40px;
+    width: 100%;
+    display: block;
+  }
+
+  .div-desktop-ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+  }
+
+  .div-desktop-li {
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .stp-section {
+    height: 500px;
+  }
+
+  .stp-images {
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+    gap: 20px;
+    max-width: 700px;
+  }
+
+  .lisence {
+    background-color: rgb(41, 38, 38);
+  }
+
+  .lisence-title,
+  .lisence-title2 {
+    color: white;
+  }
+}
