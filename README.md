@@ -21,7 +21,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://brahimdidi.github.io/CapstoneProject-Module1/home.html)
+[Live Demo Link](https://brahimdidi.github.io/DatesFestival/home.htmll)
 
 
 ## Getting Started
