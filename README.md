@@ -15,9 +15,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages: css html js
+- Major languages: Html CSS JavaScript
 - Frameworks: none
-- Technologies used : vs code
+- Technologies used : Vs Code Github
 
 ## Live Demo
 
